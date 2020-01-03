@@ -1,0 +1,56 @@
+.intro{
+	height:100px;
+	width:140px;
+	background-color:pink;
+	margin-left:1000px;
+	border-radius:50%;
+	border:1px solid green;
+	animation-name:task;
+	animation-duration:20s;
+}
+@keyframes task{
+	from {background-color:pink;}
+  to {top:yellow;}
+}
+.intro1{
+	height:100px;
+	width:130px;
+	background-color:yellow;
+	margin-left:800px;
+	border-radius:50%;
+	border:1px solid green;
+	animation-name:task1;
+	animation-duration:15s;
+}
+@keyframes task1{
+	from {background-color:red;}
+  to {background-color:green;}
+}
+.intro2{
+	height:100px;
+	width:110px;
+	background-color:powderblue;
+	margin-left:600px;
+	border-radius:50%;
+	border:1px solid green;
+	animation-name:task2;
+	animation-duration:10s;
+}
+@keyframes task2{
+	from {background-color:powderblue;}
+  to {background-color:yellow;}
+}
+.intro3{
+	height:100px;
+	width:100px;
+	background-color:red;
+	margin-left:400px;
+	border-radius:50%;
+	border:1px solid green;
+	animation-name:task3;
+	animation-duration:5s;
+}
+@keyframes task3{
+	from {background-color:violet;}
+     to {background-color:orange;}
+}
